@@ -64,8 +64,8 @@
 		overflow: visible;
 		width: 762px;
 		height: 547px;
-		left: 582px;
-		top: 106px;
+		left: 579px;
+    	top: 97px;
 	}
 	#Nuevos_productos_grandes_ofert {
 		left: 1181px;
@@ -215,6 +215,27 @@
 	}
 </style>
 
+<script>
+	function myFunction1() {
+  window.location.href="index.html";
+}
+  function myFunction2() {
+  window.location.href="tienda_cat_logo.html";
+}
+function myFunction3() {
+  window.location.href="donaciones.html";
+}
+function myFunction4() {
+  window.location.href="acerca_de.html";
+}
+function myFunction5() {
+  window.location.href="contacto.html";
+}
+function myFunction6() {
+  window.location.href="l";
+}
+
+</script>
 
 </head>
 <body>
@@ -240,19 +261,19 @@
 		</rect>
 	</svg>
 	<div id="Group_12">
-		<div id="Tienda">
+		<div id="Tienda" onclick="myFunction2">
 			<span>Tienda</span>
 		</div>
-		<div id="Contacto">
+		<div id="Contacto" onclick="myFunction5">
 			<span>Contacto</span>
 		</div>
-		<div id="Inicio_v">
+		<div id="Inicio_v" onclick="myFunction1">
 			<span>Inicio</span>
-		</div>
-		<div id="Donaciones">
+		</div> 
+		<div id="Donaciones" onclick="myFunction3">
 			<span>Donaciones</span>
 		</div>
-		<div id="Acerca_de">
+		<div id="Acerca_de" onclick="myFunction4">
 			<span>Acerca de</span>
 		</div>
 	</div>
